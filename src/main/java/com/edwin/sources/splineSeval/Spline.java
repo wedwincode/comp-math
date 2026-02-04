@@ -1,4 +1,4 @@
-package com.edwin.sources.spline_seval;
+package com.edwin.sources.splineSeval;
 
 public class Spline {
     private int n;

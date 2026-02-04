@@ -1,4 +1,4 @@
-package com.edwin.sources.decomp_solve;
+package com.edwin.sources.decompSolve;
 
 public class Solve {
     private int n;

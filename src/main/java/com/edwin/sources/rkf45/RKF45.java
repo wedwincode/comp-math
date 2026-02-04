@@ -1,7 +1,5 @@
 package com.edwin.sources.rkf45;
 
-import library.exception.RKF45Exception;
-
 import static java.lang.Math.*;
 import static java.lang.System.exit;
 
