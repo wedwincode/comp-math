@@ -9,11 +9,13 @@ public class LagrangeInterpolation {
 
         for (int i = 0; i < n; i++) {
             double term = y[i];
-            for (int j = 0; j < n; j++) {
-                if (i != j) {
-                    term *= (x0 - x[j]) / (x[i] - x[j]);
-                }
+            for (int j = 0; j < i; j++) {
+                term *= (x0 - x[j]) / (x[i] - x[j]);
             }
+            for (int j = i + 1; j < n; j++) {
+                term *= (x0 - x[j]) / (x[i] - x[j]);
+            }
+
             result += term;
         }
 
