@@ -90,7 +90,7 @@ public class Lab1 {
                 String.format("%.15E", fQuanc8.getERREST()),
                 String.format("%.15E", 0.0),
                 fQuanc8.getNOFUN(),
-                "QUANC8");
+                "QUANC8 flag=" + fQuanc8.getFLAG());
 
         System.out.printf(fmtData, '2', "Spline",
                 splineResult,
@@ -104,7 +104,7 @@ public class Lab1 {
                 String.format("%.15E", lQuanc8.getERREST()),
                 String.format("%.15E", lagrangeDeviation),
                 lQuanc8.getNOFUN(),
-                "QUANC8");
+                "QUANC8 flag=" + lQuanc8.getFLAG());
         System.out.println(line);
         System.out.println();
         System.out.println("=".repeat(115));
